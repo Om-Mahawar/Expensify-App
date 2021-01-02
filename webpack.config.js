@@ -6,7 +6,7 @@ module.exports = (env) => {
   const CSSExtract = new MiniCSSExtractPlugin();
 
   return {
-    mode: 'production',
+    mode: 'development',
     entry: './src/app.js',
     output: {
       path: path.join(__dirname, 'public', 'dist'),
