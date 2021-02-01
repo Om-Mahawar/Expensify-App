@@ -12,7 +12,6 @@ import {
 import expenses from '../fixtures/expenses';
 import { startAddExpense } from '../../actions/expenses';
 import database from '../../firebase/firebase';
-import { updateLocale } from 'moment';
 
 beforeEach((done) => {
   const expensesData = {};
